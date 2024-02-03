@@ -27,4 +27,13 @@ An automated dashboard providing quick and latest sights in order to support Dat
 ### Flowchart of project execution -
 ![Flow Chart](https://github.com/tejashrilonbale/Sales-Insights-Analysis-/assets/141994144/0082d471-e1f1-42eb-b749-ce9e10d3a7f7)
 
+# Data Cleaning and ETL (Extract, Transform, Load):
+In this process, we are work on data cleaning and ETL.
+
+Step 1: Connect the MySQL database with the PowerBI desktop.
+Step 2: Loading data into the Power BI deskstop. This step load all the tables and created in the data base. This load option will connect with the SQL and pull all the records into power BI environment.
+
+In that model view looking up for model which form the star schema.
+
+
   
