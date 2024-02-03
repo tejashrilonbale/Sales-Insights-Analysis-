@@ -84,7 +84,13 @@ The sales insights data tables as show below:
 #### Performance Insights
 ![performance](https://github.com/tejashrilonbale/Sales-Insights-Analysis-/assets/141994144/42f248e2-ea0c-4aad-99e0-0bab561c4c12)
 
+# Tools, Software and Libraries :
+1.MySQL
 
+2.Microsoft Power BI
 
+3.Power Query Editor
+
+3.DAX Language
 
   
