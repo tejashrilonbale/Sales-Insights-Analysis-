@@ -24,5 +24,6 @@ An automated dashboard providing quick and latest sights in order to support Dat
 - Sales team able to take better decisions and prove 10% cost saving of total spend.
 - Sales analysis stop data gathering manually in order to save 20% business time andreinvest it value added activity.
 
+### Flowchart of project execution -
 
   
