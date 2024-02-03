@@ -25,5 +25,6 @@ An automated dashboard providing quick and latest sights in order to support Dat
 - Sales analysis stop data gathering manually in order to save 20% business time andreinvest it value added activity.
 
 ### Flowchart of project execution -
+![Flow Chart](https://github.com/tejashrilonbale/Sales-Insights-Analysis-/assets/141994144/0082d471-e1f1-42eb-b749-ce9e10d3a7f7)
 
   
