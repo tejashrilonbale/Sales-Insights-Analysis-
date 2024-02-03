@@ -75,7 +75,15 @@ The sales insights data tables as show below:
 - Target Diff = [Profit Margin %]-'Profit Target1'[Profit Target Value]
 
 # Dashboard 
-                                                      Key Insights
+#### Key Insights
+![Key Insights](https://github.com/tejashrilonbale/Sales-Insights-Analysis-/assets/141994144/6f4d992c-51b5-4a6d-994d-d92290a92c15)
+
+#### Profit Analysis
+![Profit Analysis](https://github.com/tejashrilonbale/Sales-Insights-Analysis-/assets/141994144/db432d74-4554-4cae-8eb6-a48c248e9afb)
+
+#### Performance Insights
+![performance](https://github.com/tejashrilonbale/Sales-Insights-Analysis-/assets/141994144/42f248e2-ea0c-4aad-99e0-0bab561c4c12)
+
 
 
 
