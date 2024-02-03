@@ -46,6 +46,7 @@ Convert USD into INR in the transaction’s table: the AtliQ Hardware only works
 In power query editore finding the total values having USD as currency.
 
  `=Table.AddColumn(#"Filtered Rows", "norm_sales_amount",each if [currency] = "USD" then [sales_amount]*75 else [sales_amount]`
+
  using this correct formula of the conversion,and converted the USD currency into INR.
  
 ## Data Modeling:
@@ -69,9 +70,13 @@ The sales insights data tables as show below:
 
 ### Profit Target:
 
--- Profit Target1 = GENERATESERIES(-0.05, 0.15, 0.01)
+- Profit Target1 = GENERATESERIES(-0.05, 0.15, 0.01)
 - Profit Target Value = SELECTEDVALUE('Profit Target1'[Profit Target])
 - Target Diff = [Profit Margin %]-'Profit Target1'[Profit Target Value]
+
+# Dashboard 
+                                                      Key Insights
+
 
 
   
