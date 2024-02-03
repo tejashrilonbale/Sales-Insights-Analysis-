@@ -49,9 +49,29 @@ In power query editore finding the total values having USD as currency.
  using this correct formula of the conversion,and converted the USD currency into INR.
  
 ## Data Modeling:
-And then dataset was cleaned and transformed, it was ready to the data modeled.
 
 The sales insights data tables as show below:
+
+![Data](https://github.com/tejashrilonbale/Sales-Insights-Analysis-/assets/141994144/9cd54848-0e13-4240-8e2c-24f4a6776f00)
+
+
+# Data Analysis (DAX):
+
+## Key Measures:
+
+- sales quntity = SUM('sales transactions'[sales_qty])
+- Revenue = SUM('sales transactions'[sales_amount])
+- Total Profit Margin = SUM('Sales transactions'[Profit_Margin])
+- Profit Margin % = DIVIDE([Total Profit Margin],[Revenue],0)
+- Profit Margin Contribution % = DIVIDE([Total Profit Margin],CALCULATE([Total Profit Margin],ALL('sales products'),ALL('sales customers'),ALL('sales markets')))
+- Revenue Contribution % = DIVIDE([Revenue],CALCULATE([Revenue],ALL('sales products'),ALL('sales customers'),ALL('sales markets')))
+- Revenue LY = CALCULATE([Revenue],SAMEPERIODLASTYEAR('sales date'[date]))
+
+Profit Target:
+
+- Profit Target1 = GENERATESERIES(-0.05, 0.15, 0.01)
+- Profit Target Value = SELECTEDVALUE('Profit Target1'[Profit Target])
+- Target Diff = [Profit Margin %]-'Profit Target1'[Profit Target Value]
 
 
   
