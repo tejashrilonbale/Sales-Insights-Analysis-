@@ -34,6 +34,24 @@ Step 1: Connect the MySQL database with the PowerBI desktop.
 Step 2: Loading data into the Power BI deskstop. This step load all the tables and created in the data base. This load option will connect with the SQL and pull all the records into power BI environment.
 
 In that model view looking up for model which form the star schema.
+![ETL](https://github.com/tejashrilonbale/Sales-Insights-Analysis-/assets/141994144/3eb1a765-a097-40d8-8aeb-1c15317fc1e3)
+Setp 3: Transform data with the help of Power Query
+
+Perform filtration in market’s table: In the tables perform when we click on the transform data option, we are directed to Power query editor. Power query editor is where we perform out ETL.and then we can perform data transformation i.e. Data Cleaning, Data Wrangling, Data Munging. we need to filter the rows where the values are null and filtering the data and deselecting the blank option.
+
+Perform filtration in Transaction’s table: In the table perform when we check the query in the MySQL to filter some negative values and also 0 values that appears in the table, the desired output is received.and we will perform the similar filtration in PowerBI. we have deselecting the values, don’t want in the table. The result after filtration. the zero values represent some garbage values which is not possible so we need to clean that data.
+
+Convert USD into INR in the transaction’s table: the AtliQ Hardware only works in India so the USD values are not possible. we need to convert those USD values into INR by using some formulas. Add new column - Conditional column - normalized currency where sales amount will be in INR
+
+In power query editore finding the total values having USD as currency.
+
+ `=Table.AddColumn(#"Filtered Rows", "norm_sales_amount",each if [currency] = "USD" then [sales_amount]*75 else [sales_amount]`
+ using this correct formula of the conversion,and converted the USD currency into INR.
+ 
+## Data Modeling:
+And then dataset was cleaned and transformed, it was ready to the data modeled.
+
+The sales insights data tables as show below:
 
 
   
