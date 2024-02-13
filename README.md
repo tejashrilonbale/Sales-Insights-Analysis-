@@ -31,6 +31,7 @@ An automated dashboard providing quick and latest sights in order to support Dat
 In this process, we are work on data cleaning and ETL.
 
 Step 1: Connect the MySQL database with the PowerBI desktop.
+
 Step 2: Loading data into the Power BI deskstop. This step load all the tables and created in the data base. This load option will connect with the SQL and pull all the records into power BI environment.
 
 In that model view looking up for model which form the star schema.
